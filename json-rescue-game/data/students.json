@@ -1,0 +1,8 @@
+[
+  { "name": "Ana", "score": 8, "active": true, "track": "Frontend" },
+  { "name": "Luis", "score": 4, "active": false, "track": "Backend" },
+  { "name": "Marta", "score": 9, "active": true, "track": "Full Stack" },
+  { "name": "Iker", "score": 6, "active": true, "track": "Frontend" },
+  { "name": "Nora", "score": 3, "active": false, "track": "Backend" },
+  { "name": "Leo", "score": 7, "active": true, "track": "Full Stack" }
+]
