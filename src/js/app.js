@@ -127,18 +127,13 @@ function loadStudents() {
   // TODO: convierte studentsJSON en un array de objetos y guárdalo en students.
   // Ejemplo de objetivo:
   // students debe acabar siendo un array de objetos JavaScript.
-  students = JSON.parse(studentsJSON);
+  // La variable students ya existe, simplemente hay que asignarle un valor// students = array
+
 }
 
 // MISIÓN 2
 function showAllStudents() {
   clearStudents();
-
-  for (let i = 0; i < students.length; i++) {
-    const student = students[i];
-    const card = createStudentCard(student);
-    studentsContainer.appendChild(card);
-  }
 
   // TODO: recorre students con un bucle for.
   // Por cada estudiante, crea una tarjeta con createStudentCard(estudiante)
@@ -167,6 +162,7 @@ function calculateAverageScore() {
   // Después calcula la media y guárdala en la variable global average.
   // Importante: debe quedar guardado así:
   // average = resultadoDeLaMedia;
+  // average ya está creadp solo hay que asignarle un valor
 }
 
 // MISIÓN 6
